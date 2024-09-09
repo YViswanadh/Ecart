@@ -38,7 +38,7 @@ export class LoginComponent implements OnInit {
       return;
     }
 
-    console.log('Form submitted:', this.loginForm.value);
+    console.log('Form submitted:', this.loginForm.value);``
     // Handle login logic here
     alert('Login successful!');
   }
