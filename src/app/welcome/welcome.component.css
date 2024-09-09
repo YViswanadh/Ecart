@@ -1,0 +1,41 @@
+.wel {
+    color: aliceblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* welcome.component.css */
+.card {
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .footer {
+    margin-top: 50px;
+  }
+  
+  /* Custom styles for smaller screens */
+@media (max-width: 576px) {
+  .card-title {
+    font-size: 1.2rem;
+  }
+  .lead {
+    font-size: 1rem;
+  }
+}
+
+/* Custom styles for larger screens */
+@media (min-width: 992px) {
+  .card-title {
+    font-size: 1.5rem;
+  }
+  .lead {
+    font-size: 1.25rem;
+  }
+}
+

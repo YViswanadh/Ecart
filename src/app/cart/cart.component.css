@@ -1,0 +1,25 @@
+/* cart.component.css */
+
+/* Add hover effect for product rows */
+.table-hover tbody tr:hover {
+    background-color: #f8f9fa;
+  }
+  
+  /* Make product images responsive */
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  button {
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    transform: scale(1.05);
+  }
+  
